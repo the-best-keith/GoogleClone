@@ -7,13 +7,17 @@
 </head>
 <body>
     <main>
-        <img src="./images/foogle.png" alt="Logo for Foogle">
-        <form>
-            <label for="search"><img src="./images/searchIcon.png" alt="Icon for searching"></label>
-            <input type="text" name="search">
-        </form>
-        <div id=""><a href="#">Google Search</a></div>
-        <div><a href="#">I'm Feeling Lucky</a></div>
+        <div class="container">
+            <img src="./images/foogle.png" alt="Logo for Foogle" id="logoImage">
+            <form>
+                <label for="search"><img src="./images/searchIcon.png" alt="Icon for searching" id="searchIcon"></label>
+                <input type="text" name="search" id="searchBox">
+            </form>
+            <div id="text">
+                <a href="#"><div class="searchText" id="googleSearchText">Google Search</div></a>
+                <a href="#"><div class="searchText" id="luckySearchText">I'm Feeling Lucky</div></a>
+            </div>
+        </div>
     </main>
 </body>
 </html>

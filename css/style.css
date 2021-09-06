@@ -1,0 +1,124 @@
+body {
+    height: 100%;
+    margin: 0;
+    color:#5F6368;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#5F6368;
+}
+a:visited {
+    text-decoration: none;
+    color:#5F6368;
+}
+a:hover {
+    text-decoration: none;
+    color:#222222;
+}
+a:active {
+    text-decoration: none;
+    color:#222222;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    padding: 0;
+    margin: 10% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#searchBox {
+    width: 28vw;
+    border-radius: 2em;
+    padding: 10px 12px 10px 50px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    font-size: 16px;
+}
+
+#searchBox:focus {
+    outline: none;
+    border-width: 2px;
+    border-top-width: 0;
+    padding-top: 11px;
+    padding-left: 48px;
+    margin-bottom: -1px;
+}
+
+#searchBox:hover {
+    outline: none;
+    border-width: 2px;
+    border-top-width: 0;
+    padding-top: 11px;
+    padding-left: 48px;
+    margin-bottom: -1px;
+}
+
+#logoImage {
+    width: 270px;
+}
+
+#searchIcon {
+    width: 18px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+#text {
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.searchText {
+    padding: 10px 16px 8px 16px;
+    margin-top: 35px;
+}
+.searchText a {
+    border-style: none;
+}
+.searchText:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6c6c6;
+    border-radius: 0.25em;
+    padding-top: 9px;
+}
+#googleSearchText:hover {
+    padding-left: 15px;
+}
+#luckySearchText:hover {
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 1500px) {
+    #searchBox {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #text {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #searchBox {
+        width: 60vw;
+    }
+    #text {
+        width: 58vw;
+    }
+}
