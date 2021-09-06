@@ -1,5 +1,4 @@
 body {
-    height: 100%;
     margin: 0;
     color:#5F6368;
     font-family: arial, sans-serif;
@@ -7,24 +6,144 @@ body {
 }
 
 a:link {
-    text-decoration: none;
     color:#5F6368;
+    text-decoration: none;
 }
 a:visited {
-    text-decoration: none;
     color:#5F6368;
 }
 a:hover {
-    text-decoration: none;
     color:#222222;
 }
 a:active {
-    text-decoration: none;
     color:#222222;
 }
 
-.container {
-    height: 100%;
+header {
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 23px;
+}
+
+nav a {
+    color: #222222;
+}
+nav a:link {
+    color:#222222;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:active {
+    text-decoration: underline;
+}
+nav a:visited {
+    color: #222222;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding-right: 18px;
+    vertical-align: middle;
+}
+
+#circleK a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#circleK a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#circleK a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#circleK a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#circleK {
+    border-style: none;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 11px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    background-color: #004d40;
+    font-size: 16px;
+    margin-left: 0;
+}
+#appsIcon {
+    height: 25px;
+    margin-bottom: -4px;
+    padding-right: 0;
+}
+.navContainer1 {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.navContainer2 {
+    margin-right: -5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0 45px 6px 15px;
+    padding: 0;
+    align-items: center;
+    font-size: 14px;
+}
+footer li {
+    display: inline-block;
+    padding: 0 12px;
+}
+footer a {
+    color: #222222;
+}
+footer a:link {
+    color:#5F6368;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #5F6368;
+    text-decoration: underline;
+}
+footer a:active {
+    color: #5F6368;
+    text-decoration: underline;
+}
+footer a:visited {
+    color: #5F6368;
+    text-decoration: none;
+}
+
+
+.mainContainer {
+    height: 90%;
     width: 80%;
     padding: 0;
     margin: 10% 0 0 10%;
@@ -80,13 +199,14 @@ a:active {
     justify-content: space-evenly;
     text-align: center;
 }
+#text a {
+    border-style: none;
+    text-decoration: none;
+}
 
 .searchText {
     padding: 10px 16px 8px 16px;
     margin-top: 35px;
-}
-.searchText a {
-    border-style: none;
 }
 .searchText:hover {
     border-style: solid;
